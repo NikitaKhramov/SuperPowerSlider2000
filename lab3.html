@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Super power Slider</title>    
+    <link rel="stylesheet" href="lab3.css">
+</head>
+<header>
+
+    <ul>
+        <li><a class="active" href="lab3.html">La Classic</a></li>
+        <li><a href="lab3_1.html">Automatic</a></li>
+        <li><a href="lab3_2.html">Rotating</a></li>
+        <li><a href="lab3_3.html">3D Animation</a></li>
+        <li style="float:right"><a href="#about">GitHub</a></li>
+      </ul>
+
+</header>
+
+
+<body>
+    
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="background.jpg" style="width:100%; height: 500px;">
+      <div class="text">Some txt</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="tmnt_2.jpg" style="width:100%; height: 500px;">
+      <div class="text">Some txt2.0</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="tmnt_5.png" style="width:100%; height: 500px;">
+      <div class="text">Some txt3.0</div>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+</div>
+
+    <br>
+
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+    
+</body>
+<script type="text/javascript" src="lab3.js"></script>
+
+</html>
